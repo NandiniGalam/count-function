@@ -17,6 +17,15 @@ for i in range(len(s)):
     break
   else:
     print("yes")
-
+#approach 3 without using range
+s=input()
+v="aeiouAEIOU"
+c=0
+for i in s:
+  if i not in v:
+    print("no")
+    break
+  else:
+    print("yes")
 
 
